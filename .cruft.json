@@ -1,0 +1,32 @@
+{
+  "template": "https://github.com/costastf/python_project",
+  "commit": "9d8f08cf9d57aca8c9f3ec5837f96e97c8633ab6",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_type": "lib",
+      "full_name": "Costas Tyfoxylos",
+      "email": "costas.tyf@gmail.com",
+      "repo_name": "Accuradio",
+      "main_branch_name": "main",
+      "project_slug": "accuradiolib",
+      "project_short_description": "A library to interface with accuradio service.",
+      "git_url": "https://github.com/costastf/accuradiolib",
+      "pypi_repository": "https://upload.pypi.org/legacy/",
+      "gitlab_runner_image": "IMAGE_WITH_PYTHON39_AND_PIPENV",
+      "gitlab_runner_tags": "[docker]",
+      "tags": "accuradio",
+      "development_status": "Beta",
+      "compatible_versions": "3.9",
+      "documentation_url": "https://accuradiolib.readthedocs.org/en/latest",
+      "release_date": "08-11-2023",
+      "year": "2023",
+      "license": "MIT",
+      "_extensions": [
+        "jinja2_time.TimeExtension"
+      ],
+      "_template": "https://github.com/costastf/python_project"
+    }
+  },
+  "directory": null
+}
