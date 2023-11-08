@@ -40,3 +40,11 @@ __license__ = '''MIT'''
 __maintainer__ = '''Costas Tyfoxylos'''
 __email__ = '''<costas.tyf@gmail.com>'''
 __status__ = '''Development'''  # "Prototype", "Development", "Production".
+
+
+class MarkerNotFound(Exception):
+    """Marker is not found in the source."""
+
+
+class InvalidData(Exception):
+    """The data was not valid and could not be parsed."""
